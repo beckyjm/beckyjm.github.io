@@ -49,6 +49,7 @@ header a {
 
 #hero p {
     font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 8pt;
