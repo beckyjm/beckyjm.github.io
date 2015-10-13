@@ -1,7 +1,11 @@
 body {
+    width: 100%;
 }
 
 header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
 }
 
 h1 {
@@ -45,12 +49,51 @@ header a {
 #hero h2 {
     font-family: 'Amatic SC', sans-serif;
     font-size: 130px;
+    text-transform: uppercase;
 }
 
 #hero p {
     font-family: 'Helvetica', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 8pt;
+}
+
+#about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about img {
+    width: 200px;
+    margin-left: 141px;
+}
+
+#about div:first-child {
+    float: left;
+    width: 200px;
+}
+    
+#about h3 {
+    float: right;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 690px;
+    margin: 0px 190px;
+    text-align: center;
+}
+
+#about p {
+    float: right;
+    width: 690px;
+    margin: 10px 190px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    line-height: 17pt;
+    text-align: center;
 }
