@@ -69,31 +69,76 @@ header a {
 }
 
 #about img {
-    width: 200px;
-    margin-left: 141px;
+    width: 100%;
+
 }
 
 #about div:first-child {
     float: left;
-    width: 200px;
+    width: 20%;
 }
     
 #about h3 {
-    float: right;
+    float: left;
+    width: 60%;
+    margin: 4% 10% 1%;
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
-    font-size: 15px;
-    width: 690px;
-    margin: 0px 190px;
+    font-size: 18px;
     text-align: center;
 }
 
 #about p {
-    float: right;
-    width: 690px;
-    margin: 10px 190px;
-    font-family: 'Helvetica', sans-serif;
+    float: left;
+    width: 65%;
+    margin: 0% 7%;
+    font-family: 'Helvetica', san-serif;
     font-size: 15px;
     line-height: 17pt;
     text-align: center;
+        
+    
+}
+
+#services {
+    background-color: lightgray;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services h4 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+   
+    margin: 10px;
+}
+#services p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+}
+
+#services a {
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    text-align: center;
+
+    
+}
+
+#services img {
+    width: 250px;
+}
+
+#services div {
+    float: left;
+    background-color: grey;
+    width: 250px;
+    height: 350px;
+    margin: 50px 74px;
 }
