@@ -2,121 +2,164 @@
 <html>
 
 <head>
+
     <title>Cold Feet Studio</title>
-    <!--Set of rules to reset elements-->
-    <link rel="stylesheet" href="css/css-reset.css" />
+    <!--need these 3 meta links-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
-    <!--Adding font from Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <!--google fonts and font awesome links go here (remember that the browser reads top to bottom)-->
 
-    <!--My own style-->
-    <link rel="stylesheet" href="css/cold-feet-studio-stylesheet.css" />
+    <!--googlefonts-->
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="css/my-style.css">
+
 </head>
+
 
 <body>
 
-    <!--header-->
-    <header class="clear-fix">
-        <h1>COLD FEET STUDIO</h1>
-
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Jewelry</a>
-            <a href="#blog">Donate</a>
-            <a href="#footer">Subscribe</a>
-        </nav>
-    </header>
-
-    <!--hero-->
-    <section id="hero">
-        <h2>Cold Feet Studio</h2>
-        <p>Hand Crafted Jewelry</p>
-    </section>
-
-    <!--about-->
-    <section id="about" class="clear-fix">
-
-        <div>
-            <div>
-                <img src="img/Z.jpg" />
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid my_navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Cold Feet Studio</a>
             </div>
-            <div>
-                <h3>About Cold Feet Studio</h3>
-                <p>I would like to tell you that each piece of my jewelry is thought out and planned down to the tee, but the truth is that I make it up as I go along. I start out with good intentions to follow a path already drawn, but soon one idea begs for another to follow, and all I can do is resign myself to the unknown and let the games begin. This is what excites me about creating. It is what brings me back to my studio each day. When I write, when I paint, when I make my quilts and pottery, when I do all of these things, I smile inside and things just seem a little lighter. At this point in my life, everything I make from selling my jewelry goes to charity, namely, Save the Children, Care, Oxfam, Heifer International, and Doctors Without Borders. I've also discovered a little school in Kenya which I've decided to include in my giving.</p>
+
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jewelry <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Necklaces</a></li>
+                            <li><a href="#">Bracelets</a></li>
+                            <li><a href="#">Earrings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Donate</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop<i class="fa fa-shopping-cart fa-lg"></i></a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
+
+    <section id="hero" class="center-vertical">
+        <div class="intro">
+            <h1 class="animated fadeInDown">Cold Feet Studio</h1>
+            <p>Hand Crafted Jewelry</p>
+            <a href="#">Shop Now</a>
+        </div>
     </section>
 
-    <!--services-->
-    <section id="services">
-
-        <div class="container clear-fix">
-            <div>
-                <img src="img/606e68_cf11965e5daf46c6a05796323cf2a17c.jpg_srz_p_500_750_75_22_0.5_1.2_0_jpg_srz" />
-                <h4>Necklaces</h4>
-                <p>Peruvian Blue Opal</p>
-                <a href="#">SHOP NOW</a>
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-1 col-sm-3 col-sm-offset-1">
+                <img class="img-circle" src="img/IMG_7308.jpg" />
             </div>
-            <div>
-                <img src="img/606e68_cb4222c8465b437f817d3c341a5a9152.jpg_srz_p_500_750_75_22_0.5_1.2_0_jpg_srz" />
-                <h4>Bracelets</h4>
-                <p>Ocean Jasper</p>
-                <a href="#">SHOP NOW</a>
-            </div>
-            <div>
-                <img src="img/606e68_0ccb21feda2f4f21a64373591f9c6286.jpg_srz_p_349_524_75_22_0.5_1.2_0_jpg_srz">
-                <h4>Earrings</h4>
-                <p>Sapphire and Silver</p>
-                <a href="#">SHOP NOW</a>
-            </div>
-            <div>
-                <img src="img/606e68_b4d1e3119bdc495192b1374b9553e53e.jpg_srz_p_500_750_75_22_0.5_1.2_0_jpg_srz" />
-                <h4>Gallery</h4>
-                <p>Lace Agate</p>
-                <a href="#">SHOP NOW</a>
+            <div class="col-lg-7 col-sm-7">
+                <h2>About Cold Feet Studio</h2>
+                <p>I would like to tell you that each piece of my jewelry is thought out and planned down to the tee, but the truth is that I make it up as I go along. I start out with good intentions to follow a path already drawn, but soon one idea begs for another to follow, and all I can do is resign myself to the unknown and let the games begin. This is what excites me about creating. It is what brings me back to my studio each day. When I write, when I paint, when I make my quilts and pottery, when I do all of these things, I smile inside and things just seem a little lighter. At this point in my life, everything I make from selling my jewelry goes to charity, namely, Save the Children, Care, Oxfam, Heifer International, and Doctors Without Borders.</p>
             </div>
         </div>
     </section>
 
-    <!--blog-->
-    <section id="blog" class="clear-fix">
+    <section id="jewelry" class="container-fluid">
+        <div class="container jewelry_images">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <img class="img-responsive" src="img/earrings.jpg" />
+                    <h3>Earrings</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="col-lg-3  col-sm-6">
+                    <img class="img-responsive" src="img/bracelet.jpg" />
+                    <h3>Bracelets</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img class="img-responsive" src="img/necklace.jpg" />
+                    <h3>Necklaces</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img class="img-responsive" src="img/gallery-final.jpg" />
+                    <h3>Gallery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Giving Back</h3>
-        <p>At this point in my life, everything I make from selling my jewelry goes to charity, namely, Save the Children, Care, Oxfam, Heifer International, and Doctors Without Borders. I've also discovered a little school in Kenya which I've decided to include in my giving. So that you know what I mean when I say that I donate everything - I mean everything :)</p>
-
+    <section id="giving_back" class="container-fluid">
         <div class="container">
-            <div>
-                <img src="img/1-giving-back.jpg" />
-                <p>$1,000 to Care. And, $300 to Doctors Without Borders. :)</p>
-                <p class="date">10/14/15</p>
-            </div>
-            <div>
-                <img src="img/2-giving-back.jpg" />
-                <p>$1,000 to Save the Children. Thank you :)</p>
-                <p class="date">10/8/15</p>
+            <div class="row">
+                <h2>Giving Back</h2>
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/1-giving-back.jpg" />
+                    <h3>Dontation Update</h3>
+                    <p>$1,000 to Care. And, $300 to Doctors Without Borders.</p>
+                    <hr>
+                    <h4>10.14.15</h4>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img class="img-responsive" src="img/2-giving-back.jpg" />
+                    <h3>Dontation Update</h3>
+                    <p>$1,000 to Save the Children. Thank you :)</p>
+                    <hr>
+                    <h4>10.8.15</h4>
+                </div>
             </div>
         </div>
-
     </section>
 
-    <!--footer-->
-    <footer class="clear-fix">
-        <div>
-            <h2>Subscribe to Newsletter</h2>
-            <p>Subscribe to Cold Feet Studio Newsletter</p>
-            <div class="container clear-fix">
-                <a href="#">SUBSCRIBE</a>
-                <a href="#">DONATE</a>
-                <a href="#">CONTACT</a>
+    <section id="footer" class="center-vertical">
+        <div class="intro">
+            <h1>Subscribe to Cold Feet Studio</h1>
+            <a href="#">Subscribe</a>
+            <a href="#">Donate</a>
+        </div>
+    </section>
+
+    <section id="footer_2" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <p>©ColdFeetStudio. All Rights Reserved</p>
             </div>
         </div>
-        <div class="copyright clear-fix">
-            <p>©ColdFeetStudio | All Rights Reserved</p>
-        </div>
+    </section>
 
-    </footer>
-
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
