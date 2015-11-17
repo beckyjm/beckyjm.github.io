@@ -219,6 +219,10 @@ body {
     margin-left: 10px;
 }
 
+#footer a:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
 #footer_2 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -258,6 +262,25 @@ body {
     #giving_back h4 {
         margin-bottom: 50px;
     }
+    #contact {
+        background-color: #f0f0f0;
+        padding-bottom: 50px;
+    }
+    #contact h1 {
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #contact p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #333333;
+        text-align: center;
+    }
 }
 
 @media (min-width: 769px) and (max-width:992px) {
@@ -265,7 +288,7 @@ body {
         width: 100%;
         margin-top: 80px;
     }
-    #about p {
-        margin-bottom: 50px;
+    .spacer {
+        margin-top: 50px;
     }
 }
